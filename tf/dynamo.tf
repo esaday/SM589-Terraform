@@ -10,3 +10,10 @@ resource "aws_dynamodb_table" "dynamodb_table" {
     type = "S"
   }
 }
+
+resource "aws_dynamodb_table_item" "dynamodb_schema_table_item" {
+  for_each = local.loaded_data
+  table_name = aws_dynamodb_table.dynamodb_table.name
+  hash_key   = "Id"
+  item = jsonencode(each.value)
+}
