@@ -1,0 +1,20 @@
+[
+    {
+      "description": "test id",
+      "name": "Id",
+      "type": "STRING",
+      "mode": "Required"
+    },
+    {
+      "description": "test name",
+      "name": "Name",
+      "type": "STRING",
+      "mode": "Nullable"
+    },
+    {
+        "description": "test age",
+        "name": "Age",
+        "type": "NUMERIC",
+        "mode": "Nullable"
+      }
+   ]
