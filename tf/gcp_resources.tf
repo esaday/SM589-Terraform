@@ -7,6 +7,7 @@ resource "google_bigquery_table" "tbl_notebook" {
     type = "DAY"
   }
   schema = file("../data/tbl_notebooks_schema.json")
+  deletion_protection=false
 }
 
 #Deploy stationary shop dataset
