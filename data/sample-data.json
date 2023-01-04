@@ -1,24 +1,90 @@
 {
-    "Item1": {
-      "Id": {
-        "S": "1"
-      },
-      "Name": {
-        "S": "Ali"
-      },
-      "Age": {
-        "S": "30"
-      }
+  "Item1": {
+    "id": {
+      "S": "11111"
     },
-    "Item2": {
-      "Id": {
-        "S": "2"
-      },
-      "Name": {
-        "S": "Sara"
-      },
-      "Age": {
-        "S": "20"
-      }
+    "action_name": {
+      "S": "navigate to page x"
+    },
+    "process_time": {
+      "S": "30"
+    }
+  },
+  "Item2": {
+    "id": {
+      "S": "222222"
+    },
+    "action_name": {
+      "S": "navigate to page y"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item3": {
+    "id": {
+      "S": "333333"
+    },
+    "action_name": {
+      "S": "navigate to page y"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item4": {
+    "id": {
+      "S": "4443"
+    },
+    "action_name": {
+      "S": "navigate to page ssy"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item5": {
+    "id": {
+      "S": "5555"
+    },
+    "action_name": {
+      "S": "navigate to page ssy"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item6": {
+    "id": {
+      "S": "1f12dc111"
+    },
+    "action_name": {
+      "S": "navigate to page ssy"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item7": {
+    "id": {
+      "S": "1f12dc12211"
+    },
+    "action_name": {
+      "S": "navigate to page ssy"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item8": {
+    "id": {
+      "S": "cc12f"
+    },
+    "action_name": {
+      "S": "system shutdown"
+    },
+    "process_time": {
+      "S": "24"
     }
   }
+}
