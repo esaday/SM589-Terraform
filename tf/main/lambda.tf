@@ -34,7 +34,7 @@ resource "null_resource" "install_dependencies" {
 
 data "archive_file" "lambda_zip_file" {
   depends_on = [null_resource.install_dependencies]
-  output_path = "${path.module}/lambda.zip"
+  output_path = "${path.module}/lambda/lambda.zip"
   source_dir  = "${path.module}/lambda/package/"
   type        = "zip"
 }
