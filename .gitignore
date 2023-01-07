@@ -62,4 +62,4 @@ terraform.rc
 *.zip
 *.tfplan
 
-lambda/package/
+package/
