@@ -9,18 +9,15 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 4.16"
     }
+    google = {
+      source  = "hashicorp/google"
+      version = "~>4.47.0"
+    }
+    null = {
+      source  = "hashicorp/null"
+      version = "~> 3.1.0"
+    }
   }
 
   required_version = ">= 1.2.0"
-}
-
-provider "aws" {
-  region  = "eu-west-1"
-  profile = "esad-selami"
-  default_tags {
-    tags = {
-      CreatedBy = "terraform"
-      Name      = "SM589-Project"
-    }
-  }
 }

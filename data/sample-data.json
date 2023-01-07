@@ -1,0 +1,90 @@
+{
+  "Item1": {
+    "id": {
+      "S": "111111"
+    },
+    "action_name": {
+      "S": "navigate to page X"
+    },
+    "process_time": {
+      "S": "30"
+    }
+  },
+  "Item2": {
+    "id": {
+      "S": "222222"
+    },
+    "action_name": {
+      "S": "refresh page X"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item3": {
+    "id": {
+      "S": "333333"
+    },
+    "action_name": {
+      "S": "Edit page y"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item4": {
+    "id": {
+      "S": "444444"
+    },
+    "action_name": {
+      "S": "Delete page ssy"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item5": {
+    "id": {
+      "S": "555555"
+    },
+    "action_name": {
+      "S": "navigate to page VVV"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item6": {
+    "id": {
+      "S": "666666"
+    },
+    "action_name": {
+      "S": "navigate to page sample X"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item7": {
+    "id": {
+      "S": "777777"
+    },
+    "action_name": {
+      "S": "navigate to page ssy"
+    },
+    "process_time": {
+      "S": "4"
+    }
+  },
+  "Item8": {
+    "id": {
+      "S": "888888"
+    },
+    "action_name": {
+      "S": "system shutdown"
+    },
+    "process_time": {
+      "S": "24"
+    }
+  }
+}

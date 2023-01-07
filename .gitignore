@@ -61,3 +61,5 @@ terraform.rc
 ## Ignore lambda zip and planfiles
 *.zip
 *.tfplan
+
+package/
