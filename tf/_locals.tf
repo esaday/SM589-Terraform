@@ -1,5 +1,5 @@
 variable "gcp_creds_path" {
-  type = string
+  type      = string
   sensitive = true
 }
 

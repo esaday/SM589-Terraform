@@ -1,10 +1,10 @@
 {
   "Item1": {
     "id": {
-      "S": "11111"
+      "S": "111111"
     },
     "action_name": {
-      "S": "navigate to page x"
+      "S": "navigate to page X"
     },
     "process_time": {
       "S": "30"
@@ -15,7 +15,7 @@
       "S": "222222"
     },
     "action_name": {
-      "S": "navigate to page y"
+      "S": "refresh page X"
     },
     "process_time": {
       "S": "4"
@@ -26,7 +26,7 @@
       "S": "333333"
     },
     "action_name": {
-      "S": "navigate to page y"
+      "S": "Edit page y"
     },
     "process_time": {
       "S": "4"
@@ -34,10 +34,10 @@
   },
   "Item4": {
     "id": {
-      "S": "4443"
+      "S": "444444"
     },
     "action_name": {
-      "S": "navigate to page ssy"
+      "S": "Delete page ssy"
     },
     "process_time": {
       "S": "4"
@@ -45,10 +45,10 @@
   },
   "Item5": {
     "id": {
-      "S": "5555"
+      "S": "555555"
     },
     "action_name": {
-      "S": "navigate to page ssy"
+      "S": "navigate to page VVV"
     },
     "process_time": {
       "S": "4"
@@ -56,10 +56,10 @@
   },
   "Item6": {
     "id": {
-      "S": "1f12dc111"
+      "S": "666666"
     },
     "action_name": {
-      "S": "navigate to page ssy"
+      "S": "navigate to page sample X"
     },
     "process_time": {
       "S": "4"
@@ -67,7 +67,7 @@
   },
   "Item7": {
     "id": {
-      "S": "1f12dc12211"
+      "S": "777777"
     },
     "action_name": {
       "S": "navigate to page ssy"
@@ -78,7 +78,7 @@
   },
   "Item8": {
     "id": {
-      "S": "cc12f"
+      "S": "888888"
     },
     "action_name": {
       "S": "system shutdown"
