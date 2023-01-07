@@ -25,3 +25,8 @@ resource "google_bigquery_dataset" "main_dataset" {
 locals {
   dataset_id = "ds_sample_for_load"
 }
+
+variable "gcp_creds_path" {
+  type = string
+  sensitive = true
+}
